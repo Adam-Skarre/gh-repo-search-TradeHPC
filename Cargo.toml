@@ -1,0 +1,13 @@
+[package]
+name = "tradehpc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+rustacuda = { version = "0.3", features = ["serialize"] }
+rustacuda_core = "0.3"
+rand = "0.8"
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+rayon = "1.8"
