@@ -1,0 +1,2 @@
+cargo build --release  # Builds the project
+cargo run --release    # Executes it
